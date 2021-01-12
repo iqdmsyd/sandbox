@@ -1,0 +1,32 @@
+GET http://localhost:5000/
+
+###
+
+GET http://localhost:5000/api/users
+
+###
+
+GET http://localhost:5000/api/users/5fd4c6229bd47343d8db1ea2
+
+###
+
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "Iqdam Musayyad",
+  "email": "iqdam@gmail.com"
+}
+###
+
+PUT http://localhost:5000/api/users/5fd4c896f934f43fc491e62a
+Content-Type: application/json
+
+{
+  "name": "Delima Maulidia",
+  "email": "delima@gmail.com"
+}
+###
+
+DELETE http://localhost:5000/api/users/5fd4f707db10e95cac98f51d
+
